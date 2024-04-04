@@ -53,6 +53,8 @@ body {
 
 .studio-logo-bottom {
   color: #f4f4fd;
+  display: inline-block;
+
 }
 
 .frontpage-section {
@@ -70,6 +72,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0; 
 }
 
 .studio-link:hover {
@@ -163,7 +166,17 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .pref-head-minor {
@@ -275,13 +288,14 @@ img {
 
 .container {
   display: flex;
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
   
 }
 
 .portfolio-item-set {
+  
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -295,15 +309,17 @@ img {
 .nav-item-set {
   display: flex;
   flex-wrap: wrap;
+  gap: 40px;
 }
 
 .nav-item {
   padding: 24px 0;
+  margin-right: 40px;
   width: calc((100% - 20px) / 3);
 }
 
 .nav-item:last-child {
-  margin: 0;
+  margin-right: 0
 }
 
 .team-section {
@@ -324,7 +340,7 @@ img {
 }
 
 .pref-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   text-align: center;
 }
 
@@ -351,4 +367,8 @@ img {
 
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.pref-section {
+  padding: 120px 0;
 }
