@@ -53,7 +53,7 @@ body {
 
 .studio-logo-bottom {
   color: #f4f4fd;
-  display: inline-block;
+  
 
 }
 
@@ -271,6 +271,8 @@ img {
 
 .nav-bar {
   display: flex;
+  flex-direction: row;
+  align-content: stretch;
   align-items: center;
   gap: 40px;
 }
@@ -282,7 +284,6 @@ img {
 
 .studio-logo-footer {
   font-family: "Raleway" sans-serif;
-  display: inline-block ;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
@@ -381,7 +382,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   display: inline-block;
   margin-bottom: 16px;
 }
