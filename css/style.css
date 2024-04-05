@@ -284,11 +284,12 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .container {
   display: flex;
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   
