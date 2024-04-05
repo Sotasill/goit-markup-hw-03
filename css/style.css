@@ -146,6 +146,8 @@ a {
   text-decoration: none;
   color: #434455;
   font-size: 16px;
+  display: inline-block;
+  padding: 24px 0;
 }
 
 li {
@@ -216,7 +218,7 @@ img {
 
 .list-item {
   width: calc((100% - 20px) / 4);
-  
+  border-radius: 0px 0px 4px 4px;
   
 }
 
@@ -257,7 +259,14 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .nav-bar {
@@ -292,7 +301,7 @@ img {
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   
