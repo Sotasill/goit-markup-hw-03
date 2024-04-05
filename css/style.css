@@ -215,10 +215,9 @@ img {
 }
 
 .list-item {
-  background-color: #ffffff;
   width: calc((100% - 20px) / 4);
-  text-align: center;
-  border-radius: 0px 0px 4px 4px;
+  
+  
 }
 
 .name {
@@ -274,6 +273,7 @@ img {
 
 .studio-logo-footer {
   font-family: "Raleway" sans-serif;
+  display: inline-block ;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
@@ -281,17 +281,21 @@ img {
 }
 
 .footer-text {
+  display: flex;
+  flex-wrap: wrap;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: left;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  
   
 }
 
@@ -301,6 +305,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  
 }
 
 .portfolio-item {
@@ -330,6 +335,8 @@ img {
 .team-item-set {
   display: flex;
   gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .pref-item-set {
@@ -341,8 +348,8 @@ img {
 }
 
 .pref-item {
-  flex-basis: calc((100% - 72px) / 4);
-  text-align: center;
+  width: calc((100% - 72px) / 4);
+  
 }
 
 .section-portfolio {
