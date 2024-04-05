@@ -217,7 +217,7 @@ img {
 }
 
 .list-item {
-  width: calc((100% - 20px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   
 }
@@ -388,4 +388,9 @@ img {
 
 .pref-section {
   padding: 120px 0;
+}
+
+.link-logo {
+  display: flex;
+  display: inline-block; 
 }
