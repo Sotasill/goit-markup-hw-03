@@ -33,35 +33,22 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px;
 }
 
-.web-logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  color: #4d5ae5;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 
 .studio-logo {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .studio-logo-bottom {
   color: #f4f4fd;
-  
-
 }
 
 .frontpage-section {
-  display: flex;
+  
   background-color: #2e2f42;
-  color: #ffffff;
-  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -72,19 +59,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0; 
+  padding: 24px 0;
+  display: block;
 }
 
-.studio-link:hover {
-  color: #404bbf;
-}
 
-.studio-link:focus {
-  color: #404bbf;
-}
 
 .adress-bar {
   font-style: normal;
+  margin-left: auto;
 }
 
 .adress-item-set {
@@ -98,6 +81,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  padding: 24px;
 }
 
 .contact:hover {
@@ -115,6 +99,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -131,6 +117,7 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .button:hover {
@@ -142,12 +129,7 @@ body {
 }
 
 a {
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: #434455;
-  font-size: 16px;
-  display: inline-block;
-  padding: 24px 0;
 }
 
 li {
@@ -174,7 +156,7 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -197,14 +179,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.team {
-  background-color: #f4f4fd;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+
 
 .team-head {
   font-size: 36px;
@@ -219,7 +194,7 @@ img {
 .list-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  
+  background-color: #fff;
 }
 
 .name {
@@ -244,6 +219,15 @@ img {
   text-align: center;
 }
 
+.profession-app {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: left;
+}
+
+
 .team-list {
   padding: 32px 0;
 }
@@ -254,27 +238,22 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
+  
   margin-bottom: 8px;
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.container-header {
+.header-container {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  align-items: center;
 }
 
 .nav-bar {
   display: flex;
-  flex-direction: row;
-  align-content: stretch;
   align-items: center;
-  gap: 40px;
 }
 
 .footer {
@@ -291,31 +270,25 @@ img {
 }
 
 .footer-text {
-  display: flex;
+  
   flex-wrap: wrap;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  text-align: left;
+  max-width: 264px;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  
-  
 }
 
 .portfolio-item-set {
-  
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  
 }
 
 .portfolio-item {
@@ -324,47 +297,42 @@ img {
 
 .nav-item-set {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   gap: 40px;
 }
 
 .nav-item {
-  padding: 24px 0;
-  margin-right: 40px;
-  width: calc((100% - 20px) / 3);
+ 
 }
 
 .nav-item:last-child {
-  margin-right: 0
+  margin-right: 0;
 }
 
 .team-section {
   padding: 120px 0;
+  background-color: #F4F4FD;
 }
 
 .team-item-set {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  p
 }
 
 .pref-item-set {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .pref-item {
   width: calc((100% - 72px) / 4);
-  
 }
 
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+  
 }
 
 .app-list-div {
@@ -388,9 +356,4 @@ img {
 
 .pref-section {
   padding: 120px 0;
-}
-
-.link-logo {
-  display: flex;
-  display: inline-block; 
 }
